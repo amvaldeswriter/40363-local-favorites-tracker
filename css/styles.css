@@ -1,14 +1,6 @@
-/* ==========================================
-   PROJECT 2: LOCAL FAVORITES TRACKER
-   CSS organized by sections for maintainability
-
-   Instructions: Add your styles in the marked sections below.
-   Each section shows which lab adds what code.
-   ========================================== */
 
 /* ==========================================
    CSS RESET & BASE STYLES
-   LAB11: Add core foundation styles here
    ========================================== */
    /* CSS Reset */
 * {
@@ -25,14 +17,10 @@ body {
     background-color: #f5f5f5;
 }
 
-/* TODO LAB11: Add CSS reset and base styles */
-
 
 /* ==========================================
    CONTAINER & LAYOUT
-   LAB11: Add container and layout styles here
    ========================================== */
-/* TODO LAB11: Add .container styles */
    .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -43,10 +31,7 @@ body {
 
 /* ==========================================
    HEADER
-   LAB11: Add header with gradient background
    ========================================== */
-
-/* TODO LAB11: Add header, h1, and .subtitle styles */
 header {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     color: white;
@@ -68,9 +53,7 @@ header h1 {
 
 /* ==========================================
    MAIN CONTENT & SECTIONS
-   LAB11: Add section containers and spacing
    ========================================== */
-/* TODO LAB11: Add main and section styles */
 
 main {
     padding: 2rem 0;
@@ -93,11 +76,8 @@ h2 {
 
 /* ==========================================
    FORM STYLES
-   LAB11: Add form layout and input styling
-   TODO LAB13: May add form validation styles
    ========================================== */
 
-/* TODO LAB11: Add .form-group, label, input, select, textarea styles */
    .form-group {
     margin-bottom: 1.5rem;
 }
@@ -137,11 +117,8 @@ textarea {
 
 /* ==========================================
    BUTTONS
-   LAB11: Add primary button styling
-   TODO LAB14: Will add .btn-danger and .btn-secondary here
    ========================================== */
 
-/* TODO LAB11: Add .btn and .btn-primary styles */
 .btn {
     padding: 0.75rem 1.5rem;
     border: none;
@@ -174,7 +151,6 @@ textarea {
    TODO LAB14: Will connect to JavaScript search functionality
    ========================================== */
 
-/* TODO LAB11: Add .search-controls styles */
 .search-controls {
     display: flex;
     gap: 1rem;
@@ -190,11 +166,9 @@ textarea {
 
 /* ==========================================
    FAVORITES GRID & CARDS
-   LAB11: Add grid layout structure
    TODO LAB13: Cards will be populated by JavaScript
    ========================================== */
 
-/* TODO LAB11: Add .favorites-grid and .empty-message styles */
 .favorites-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -211,11 +185,9 @@ textarea {
 
 /* ==========================================
    FAVORITE CARD STYLES
-   LAB11: Prepare card design for JavaScript
    LAB13: JavaScript will create cards using these styles
    ========================================== */
 
-/* TODO LAB11: Add .favorite-card and related styles */
 .favorite-card {
     background: white;
     border: 2px solid #e0e0e0;
@@ -271,10 +243,8 @@ textarea {
 
 /* ==========================================
    FOOTER
-   LAB11: Add simple centered footer
    ========================================== */
 
-/* TODO LAB11: Add footer styles */
 footer {
     background-color: #333;
     color: white;
@@ -289,12 +259,9 @@ footer p {
 
 /* ==========================================
    RESPONSIVE DESIGN
-   LAB11: Add mobile-first responsive breakpoints
    IMPORTANT: Keep ALL media queries in this section!
    TODO LAB13-15: May add responsive adjustments for new features
    ========================================== */
-
-/* TODO LAB11: Add @media queries for tablet and mobile */
 
 @media (max-width: 768px) {
     header h1 {
